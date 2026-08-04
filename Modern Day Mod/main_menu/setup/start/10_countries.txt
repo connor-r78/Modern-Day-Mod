@@ -19,7 +19,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -39,13 +40,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       ACAD = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AFG = {
@@ -77,7 +80,17 @@ countries = {
             ruler = random
             heir_selection = lottery_election
 
-             # ruler = afgh_hibatullah_akhundzada
+             # ruler = afgh_hibatullah_akhundzada
+
+
+
+
+
+
+
+
+
+
          }
       }
 
@@ -100,7 +113,17 @@ countries = {
             ruler = random
             heir_selection = lottery_election
 
-             # ruler = alb_bajram_begaj
+             # ruler = alb_bajram_begaj
+
+
+
+
+
+
+
+
+
+
          }
       }
 
@@ -137,7 +160,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -178,7 +202,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -198,13 +223,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       ARAB = {
          country_rank = rank_county
-       }
+
+       }
 
 
       ARG = {
@@ -244,7 +271,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -265,7 +293,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -285,7 +314,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -461,68 +491,81 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       AUCC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUCT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUCX = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUJB = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUNF = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUNT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUNW = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUQD = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUSA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUTS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUVC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AUWA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       AZER = {
@@ -544,7 +587,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -567,7 +611,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -587,7 +632,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -611,7 +657,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -631,7 +678,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -651,7 +699,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -674,7 +723,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -706,7 +756,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -726,7 +777,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -747,7 +799,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -768,13 +821,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       BNLX = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BOLI = {
@@ -804,7 +859,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -826,7 +882,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -849,7 +906,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -862,27 +920,32 @@ countries = {
          }
 
          include = "expl_mdm_whole_world"
-       }
+
+       }
 
 
       BRAC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRAL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRAM = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRAP = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRAZ = {
@@ -995,123 +1058,147 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       BRBA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRCE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRDF = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRES = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRGO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRMA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRMG = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRMS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRMT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRPA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRPB = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRPE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRPI = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRPR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRRJ = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRRN = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRRO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRRR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRRS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRSC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRSE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRSP = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BRTO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       BUFA = {
@@ -1134,7 +1221,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1161,7 +1249,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1181,18 +1270,21 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       CAAB = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CABC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CAFR = {
@@ -1212,13 +1304,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       CAMB = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CAME = {
@@ -1242,7 +1336,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1362,53 +1457,63 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       CANA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CANB = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CANL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CANS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CANT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CANU = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CAON = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CAPE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CAQC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CASCA = {
@@ -1428,13 +1533,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       CASK = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CAT = {
@@ -1442,17 +1549,20 @@ countries = {
          country_rank = rank_duchy
 
          include = "expl_mdm_whole_world"
-       }
+
+       }
 
 
       CAYT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CEOE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       CHAD = {
@@ -1476,7 +1586,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1496,7 +1607,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1758,7 +1870,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1796,7 +1909,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1832,7 +1946,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1852,7 +1967,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1875,7 +1991,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1895,7 +2012,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1916,7 +2034,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1936,7 +2055,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1960,7 +2080,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -1984,7 +2105,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2004,7 +2126,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2029,13 +2152,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       CZSK = {
          country_rank = rank_county
-       }
+
+       }
 
 
       DAN = {
@@ -2060,7 +2185,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2080,13 +2206,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       DIXI = {
          country_rank = rank_county
-       }
+
+       }
 
 
       DJIB = {
@@ -2105,7 +2233,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2125,7 +2254,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2147,7 +2277,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2185,18 +2316,21 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       DUMMY = {
          country_rank = rank_county
-       }
+
+       }
 
 
       EAFR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       ECUA = {
@@ -2220,7 +2354,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2261,7 +2396,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2281,7 +2417,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2301,7 +2438,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2322,7 +2460,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2344,7 +2483,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2364,7 +2504,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2394,7 +2535,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2414,7 +2556,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2430,7 +2573,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2452,7 +2596,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2481,7 +2626,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2561,7 +2707,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2583,7 +2730,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2603,7 +2751,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2623,7 +2772,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2671,13 +2821,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       GCOL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       GEO = {
@@ -2703,7 +2855,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2767,7 +2920,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2790,23 +2944,27 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       GLAK = {
          country_rank = rank_county
-       }
+
+       }
 
 
       GLC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       GPLA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       GRE = {
@@ -2837,7 +2995,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2857,7 +3016,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2880,7 +3040,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2902,13 +3063,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       GULF = {
          country_rank = rank_county
-       }
+
+       }
 
 
       GUYA = {
@@ -2928,7 +3091,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2956,7 +3120,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2977,7 +3142,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -2997,7 +3163,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3019,7 +3186,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3044,13 +3212,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       IBER = {
          country_rank = rank_county
-       }
+
+       }
 
 
       ICE = {
@@ -3071,7 +3241,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3194,7 +3365,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3263,7 +3435,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3337,7 +3510,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3369,7 +3543,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3396,7 +3571,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3420,7 +3596,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3473,7 +3650,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3495,7 +3673,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3515,7 +3694,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3578,7 +3758,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3600,7 +3781,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3644,7 +3826,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3667,7 +3850,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3690,7 +3874,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3712,13 +3897,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       KORE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       KOSO = {
@@ -3737,7 +3924,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3757,7 +3945,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3781,7 +3970,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3806,7 +3996,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3829,7 +4020,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3849,7 +4041,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3869,7 +4062,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3890,7 +4084,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3918,7 +4113,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3938,7 +4134,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3962,7 +4159,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -3982,7 +4180,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4002,7 +4201,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4023,7 +4223,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4051,7 +4252,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4080,7 +4282,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4107,7 +4310,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4127,7 +4331,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4148,7 +4353,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4170,7 +4376,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4190,7 +4397,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4214,13 +4422,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       MER = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MEX = {
@@ -4287,7 +4497,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4320,7 +4531,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4342,13 +4554,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       MIED = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MOLD = {
@@ -4372,7 +4586,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4387,7 +4602,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4408,7 +4624,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4445,7 +4662,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4472,173 +4690,207 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       MTPB = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXAG = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXBC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXBS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXCH = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXCL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXCM = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXCO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXCS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXDF = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXDG = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXGR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXGT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXHG = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXJA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXMC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXMO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXMX = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXNA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXNL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXOA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXPU = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXQR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXQT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXSI = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXSL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXSO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXTB = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXTL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXTM = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXVE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXYU = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MXZA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       MYAN = {
@@ -4675,13 +4927,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       NAFR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       NAMI = {
@@ -4704,7 +4958,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4724,13 +4979,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       NAV = {
          country_rank = rank_county
-       }
+
+       }
 
 
       NCYP = {
@@ -4749,7 +5006,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4773,13 +5031,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       NENG = {
          country_rank = rank_county
-       }
+
+       }
 
 
       NICR = {
@@ -4800,7 +5060,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4826,7 +5087,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4860,7 +5122,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4880,7 +5143,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4906,7 +5170,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -4936,18 +5201,21 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       NORD = {
          country_rank = rank_county
-       }
+
+       }
 
 
       NORT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       NPL = {
@@ -4971,13 +5239,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       NROS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       NZEA = {
@@ -5017,7 +5287,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5044,13 +5315,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       OSUL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       PAKI = {
@@ -5090,7 +5363,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5109,7 +5383,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5129,7 +5404,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5151,7 +5427,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5182,7 +5459,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5205,13 +5483,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       PEBO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       PERU = {
@@ -5253,7 +5533,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5285,18 +5566,21 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       PIR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       PLLT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       POL = {
@@ -5340,7 +5624,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5367,7 +5652,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5387,7 +5673,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5422,13 +5709,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       ROCK = {
          country_rank = rank_county
-       }
+
+       }
 
 
       RUS = {
@@ -5672,7 +5961,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5692,7 +5982,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5726,13 +6017,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       SAHE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       SAM = {
@@ -5751,7 +6044,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5771,7 +6065,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5834,13 +6129,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       SCAN = {
          country_rank = rank_county
-       }
+
+       }
 
 
       SENE = {
@@ -5863,7 +6160,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5887,7 +6185,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5907,7 +6206,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5939,7 +6239,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5959,7 +6260,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -5988,7 +6290,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6009,7 +6312,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6032,7 +6336,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6053,7 +6358,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6073,7 +6379,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6088,7 +6395,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6108,13 +6416,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       SNGM = {
          country_rank = rank_county
-       }
+
+       }
 
 
       SOLO = {
@@ -6136,7 +6446,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6160,7 +6471,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6181,7 +6493,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6201,7 +6514,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6259,7 +6573,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6281,7 +6596,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6303,7 +6619,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6323,7 +6640,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6350,13 +6668,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       SUDE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       SURI = {
@@ -6375,7 +6695,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6395,7 +6716,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6431,7 +6753,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6456,7 +6779,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6482,7 +6806,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6504,7 +6829,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6527,7 +6853,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6554,7 +6881,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6574,7 +6902,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6594,7 +6923,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6614,7 +6944,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6634,7 +6965,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6658,7 +6990,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6682,7 +7015,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6743,7 +7077,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6763,7 +7098,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6785,7 +7121,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6806,7 +7143,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6852,7 +7190,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6867,7 +7206,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -6888,13 +7228,14 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       USA = {
          capital = washington_dc
-         # government = {ruler = usa_donald_trump }
+         government = {ruler = usa_bill_clinton }
          country_rank = rank_kingdom
          starting_technology_level = 3
 
@@ -7132,293 +7473,351 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       USAK = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USAL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USAR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USAS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USAZ = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USCA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USCO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USCT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USDC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USDE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USFL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USGA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USGU = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USHI = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USIA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USID = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USIL = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USIN = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USKS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USKY = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USLA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USMA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USMD = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USME = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USMI = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USMN = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USMO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USMP = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USMS = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USMT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USNC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USND = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USNE = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USNH = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USNJ = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USNM = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USNV = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USNY = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USOH = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USOK = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USOR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USPA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USPR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USRI = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USSC = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USSD = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USSR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USTN = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USTX = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USUT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USVA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USVI = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USVT = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USWA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USWI = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USWV = {
          country_rank = rank_county
-       }
+
+       }
 
 
       USWY = {
          country_rank = rank_county
-       }
+
+       }
 
 
       UZBE = {
@@ -7443,7 +7842,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -7464,7 +7864,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -7479,7 +7880,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -7506,7 +7908,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -7536,23 +7939,27 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       WAFR = {
          country_rank = rank_county
-       }
+
+       }
 
 
       WCAN = {
          country_rank = rank_county
-       }
+
+       }
 
 
       WIND = {
          country_rank = rank_county
-       }
+
+       }
 
 
       WSAH = {
@@ -7576,7 +7983,8 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
@@ -7608,13 +8016,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       YUGO = {
          country_rank = rank_county
-       }
+
+       }
 
 
       ZAMB = {
@@ -7642,13 +8052,15 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }
 
 
       ZAPA = {
          country_rank = rank_county
-       }
+
+       }
 
 
       ZMW = {
@@ -7671,6 +8083,7 @@ countries = {
          government = {
             type = republic
             ruler = random
-          }
+
+          }
       }}
 }

@@ -1,2 +1,41 @@
 character_db = {
+    usa_bill_clinton = {
+        first_name = { name = name_william }
+        last_name = { name = name_clinton }
+        culture = mdm_deep_south_culture
+        religion = methodist
+        birth_date = 1946.8.19
+        birth = naguatex
+        tag = USA
+        estate = crown_estate
+    }
+
+    usa_hillary_clinton = {
+        first_name = { name = name_hillary }
+        last_name = { name = name_rodham }
+        culture = mdm_chicagoland_culture
+        religion = methodist
+        birth_date = 1947.10.26
+        female = yes
+        birth = chicago
+        tag = USA
+        estate = crown_estate
+
+        spouse = usa_bill_clinton
+    }
+
+    usa_chelsea_clinton = {
+        first_name = { name = name_chelsea }
+        last_name = { name = name_clinton }
+        culture = mdm_deep_south_culture
+        religion = baptist
+        birth_date = 1980.2.27
+        female = yes
+        birth = utiangue
+        tag = USA
+        estate = crown_estate
+
+        father = usa_bill_clinton
+        mother = usa_hillary_clinton
+    }
 }
