@@ -1,4 +1,353 @@
 character_db = {
+    gbr_queen_elizabeth_the_queen_mother = {
+        first_name = { name = name_elizabeth }
+        culture = english
+        religion = anglican
+        birth_date = 1900.8.4
+        female = yes
+        birth = london
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = bowes_lyon_dynasty
+    }
+    
+    gbr_george_vi = {
+        first_name = { name = name_george }
+        culture = english
+        religion = anglican
+        birth_date = 1895.12.14
+        birth = norfolk
+        death_date = 1952.2.6
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+    }
+    
+    gbr_elizabeth_ii = {
+        first_name = { name = name_elizabeth }
+        culture = english
+        religion = anglican
+        birth_date = 1926.4.21
+        female = yes
+        birth = london
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        father = gbr_george_vi
+        mother = gbr_queen_elizabeth_the_queen_mother
+    }
+
+    gbr_prince_philip_duke_of_edinburgh = {
+        first_name = { name = name_philip.english_language }
+        culture = danish
+        religion = anglican
+        birth_date = 1921.6.10
+        birth = corfu
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = mountbatten_dynasty
+
+        spouse = gbr_elizabeth_ii
+    }
+
+    gbr_diana_princess_of_wales = {
+        first_name = { name = name_diana }
+        culture = english
+        religion = anglican
+        birth_date = 1961.7.1
+        death_date = 1997.8.31
+
+        tag = GBR
+        estate = nobles_estate
+        dynasty = spencer_dynasty
+    }
+
+    gbr_charles_iii = {
+        first_name = { name = name_charles }
+        culture = english
+        religion = anglican
+        birth_date = 1948.11.14
+        birth = london
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = mountbatten_windsor_dynasty
+
+        mother = gbr_elizabeth_ii
+        father = gbr_prince_philip_duke_of_edinburgh
+    }
+
+    gbr_william_prince_of_wales = {
+        first_name = { name = name_william }
+        culture = english
+        religion = anglican
+        birth_date = 1982.6.21
+        birth = london
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        mother = gbr_diana_princess_of_wales
+        father = gbr_charles_iii
+    }
+
+    gbr_prince_harry_duke_of_sussex = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = anglican
+        birth_date = 1984.9.15
+        birth = london
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        mother = gbr_diana_princess_of_wales
+        father = gbr_charles_iii
+    }
+
+    gbr_anne_princess_royal = {
+        first_name = { name = name_anna }
+        culture = english
+        religion = anglican
+        birth_date = 1950.8.15
+        birth = london
+        female = yes
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        mother = gbr_elizabeth_ii
+        father = gbr_prince_philip_duke_of_edinburgh
+    }
+
+    gbr_mark_phillips = {
+        first_name = { name = name_mark }
+        last_name = { name = name_phillips }
+        culture = english
+        religion = anglican
+        birth_date = 1948.9.22
+        birth = london
+
+        tag = GBR
+        estate = burghers_estate
+    }
+
+    gbr_peter_phillips = {
+        first_name = { name = name_peter }
+        last_name = { name = name_phillips }
+        culture = english
+        religion = anglican
+        birth_date = 1977.11.15
+        birth = london
+
+        tag = GBR
+        estate = crown_estate
+
+        mother = gbr_anne_princess_royal
+        father = gbr_mark_phillips
+    }
+
+    gbr_zara_tindall = {
+        first_name = { name = name_zara }
+        last_name = { name = name_phillips }
+        culture = english
+        religion = anglican
+        birth_date = 1981.5.15
+        birth = london
+        female = yes
+
+        tag = GBR
+        estate = crown_estate
+
+        mother = gbr_anne_princess_royal
+        father = gbr_mark_phillips
+    }
+
+    gbr_sarah_ferguson = {
+        first_name = { name = name_sara }
+        last_name = { name = name_ferguson }
+        culture = english
+        religion = anglican
+        birth_date = 1959.10.15
+        birth = london
+        female = yes
+
+        tag = GBR
+        estate = burghers_estate
+    }
+
+    gbr_andrew_mountbatten_windsor = {
+        first_name = { name = name_andrew }
+        culture = english
+        religion = anglican
+        birth_date = 1960.2.19
+        birth = london
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        mother = gbr_elizabeth_ii
+        father = gbr_prince_philip_duke_of_edinburgh
+    }
+
+    gbr_princess_beatrice = {
+        first_name = { name = name_beatrix.alternative }
+        culture = english
+        religion = anglican
+        birth_date = 1988.8.8
+        birth = london
+        female = yes
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        mother = gbr_sarah_ferguson
+        father = gbr_andrew_mountbatten_windsor
+    }
+
+    gbr_princess_eugenie = {
+        first_name = { name = name_eugenie }
+        culture = english
+        religion = anglican
+        birth_date = 1990.3.23
+        birth = london
+        female = yes
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        mother = gbr_sarah_ferguson
+        father = gbr_andrew_mountbatten_windsor
+    }
+
+    gbr_sophie_duchess_of_edinburgh = {
+        first_name = { name = name_sophia.french_language }
+        last_name = { name = name_rhys_jones }
+        culture = english
+        religion = anglican
+        birth_date = 1965.1.20
+        birth = london
+        female = yes
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = molesworth_dynasty
+    }
+
+    gbr_prince_edward_duke_of_edinburgh = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = anglican
+        birth_date = 1964.3.10
+        birth = london
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        mother = gbr_elizabeth_ii
+        father = gbr_prince_philip_duke_of_edinburgh
+        spouse = gbr_sophie_duchess_of_edinburgh
+    }
+
+    gbr_princess_margaret_countess_of_snowdon = {
+        first_name = { name = name_margaret }
+        culture = english
+        religion = anglican
+        birth_date = 1930.8.21
+        female = yes
+        birth = forfar
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        father = gbr_george_vi
+        mother = gbr_queen_elizabeth_the_queen_mother
+    }
+    
+    usa_dorothy_howell_rodham = {
+        first_name = { name = name_dorothy }
+        last_name = { name = name_howell }
+        culture = mdm_chicagoland_culture
+        religion = methodist
+        birth_date = 1919.6.4
+        birth = chicago
+        female = yes
+        
+        tag = USA
+        estate = peasants_estate
+    }
+
+    usa_hugh_rodham_1911 = {
+        first_name = { name = name_hugh }
+        last_name = { name = name_rodham }
+        culture = mdm_mid_atlantic_culture
+        religion = methodist
+        birth_date = 1911.4.2
+        death_date = 1993.4.7
+        birth = lackawanna # Scranton, Lackawanna
+        tag = USA
+        estate = burghers_estate
+
+        spouse = usa_dorothy_howell_rodham
+    }
+
+    usa_hillary_clinton = {
+        first_name = { name = name_hillary }
+        last_name = { name = name_rodham }
+        culture = mdm_chicagoland_culture
+        religion = methodist
+        birth_date = 1947.10.26
+        birth = chicago
+        female = yes
+        tag = USA
+        estate = crown_estate
+
+        father = usa_hugh_rodham_1911
+        mother = usa_dorothy_howell_rodham
+        spouse = usa_bill_clinton
+    }
+
+    usa_hugh_rodham_1950 = {
+        first_name = { name = name_hugh }
+        last_name = { name = name_rodham }
+        culture = mdm_chicagoland_culture
+        religion = methodist
+        birth_date = 1947.10.26
+        birth = chicago
+        tag = USA
+        estate = burghers_estate
+
+        father = usa_hugh_rodham_1911
+        mother = usa_dorothy_howell_rodham
+    }
+
+    usa_tony_rodham = {
+        first_name = { name = name_anthony }
+        last_name = { name = name_rodham }
+        culture = mdm_chicagoland_culture
+        religion = methodist
+        birth_date = 1954.12.8
+        birth = chicago
+        tag = USA
+        estate = burghers_estate
+
+        father = usa_hugh_rodham_1911
+        mother = usa_dorothy_howell_rodham
+    }
+
     usa_bill_clinton = {
         first_name = { name = name_william }
         last_name = { name = name_clinton }
@@ -8,20 +357,8 @@ character_db = {
         birth = naguatex
         tag = USA
         estate = crown_estate
-    }
 
-    usa_hillary_clinton = {
-        first_name = { name = name_hillary }
-        last_name = { name = name_rodham }
-        culture = mdm_chicagoland_culture
-        religion = methodist
-        birth_date = 1947.10.26
-        female = yes
-        birth = chicago
-        tag = USA
-        estate = crown_estate
-
-        spouse = usa_bill_clinton
+        spouse = usa_hillary_clinton
     }
 
     usa_chelsea_clinton = {
@@ -37,5 +374,17 @@ character_db = {
 
         father = usa_bill_clinton
         mother = usa_hillary_clinton
+    }
+
+    usa_al_gore = {
+        first_name = { name = name_albert }
+        last_name = { name = name_gore }
+        culture = mdm_deep_south_culture
+        religion = baptist
+        birth_date = 1980.2.27
+        female = yes
+        birth = washington
+        tag = USA
+        estate = burghers_estate
     }
 }

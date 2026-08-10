@@ -1,8 +1,28 @@
 dynasty_manager = {
 
+   bowes_lyon_dynasty = {
+      name = { name = bowes_lyon_dynasty }
+      home = forfar
+   }
+   
+   molesworth_dynasty = {
+      name = { name = molesworth_dynasty }
+      home = dublin
+   }
+
+   spencer_dynasty = {
+      name = { name = spencer_dynasty }
+      home = oxford
+   }
+
+   windsor_dynasty = {
+      name = { name = windsor }
+      home = windsor
+   }
 
    default_dynasty = {
       name = { name = default_dynasty }
       home = vattnajokull
-   } #just for default coat of arms
+   } #just for default coat of arms
+
 }

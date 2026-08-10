@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  # valid formats:
  # name_NAME
  # name_NAME.[culture]
@@ -7119,6 +7119,8 @@ l_english:
  name_fergus: "Fergus"
  name_fergus.gaelic_language: "Fearghus"
  #
+ name_ferguson: "Ferguson"
+ #
  name_ferrer: "Ferrer"
  name_ferrer.latin_language: "Ferrarius"
  #
@@ -8144,6 +8146,8 @@ l_english:
  name_gordian: "Gordian"
  name_gordian.greek_language: "Gordianos" # Γορδιανός
  name_gordian.latin_language: "Gordianus"
+ #
+ name_gore: "Gore"
  #
  name_gormlaith: "Gormlaith"
  #
@@ -14187,6 +14191,8 @@ l_english:
  name_philippicus.greek_language: "Philippikos" # Φιλιππικός
  name_philippicus.latin_language: "Philippicus"
  #
+ name_philips: "Philips"
+ #
  name_philomena: "Philomena"
  name_philomena.arpitan_dialect: "Filomène"
  name_philomena.emilian_dialect: "Filomen"
@@ -14954,6 +14960,8 @@ l_english:
  #
  name_rhys: "Rhys"
  #
+ name_rhys_jones: "Rhys-Jones"
+ #
  name_ricarda: "Ricarda"
  name_ricarda.emilian_dialect: "Ricciard"
  name_ricarda.german_language: "Richardis"
@@ -15118,7 +15126,6 @@ l_english:
  name_roderick.west_slavic_language: "Ruryk"
  #
  name_rodham: "Rodham"
- #
  name_rodislav: "Radoslav" # Родислав Russian
  name_rodislav.belarusian_dialect: "Radyslav" # Радыслаў Belarusian
  name_rodislav.novgorodian_dialect: "Rodĭslavŭ"
@@ -21798,6 +21805,7 @@ l_english:
  name_yesun: "Yesun"
  name_yesun.mongolian_language: "Yesün"
  name_yoshmut: "Yoshmut"
+ name_zara: "Zara"
 
  #Nahua
  name_acamapichtli: "Acamapichtli"

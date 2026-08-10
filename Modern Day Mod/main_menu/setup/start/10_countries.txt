@@ -2779,7 +2779,13 @@ countries = {
 
       GBR = {
          capital = london
-         # government = {ruler = gbr_charles_iii_of_windsor }
+         government = { 
+            ruler = gbr_elizabeth_ii
+            ruler_term = { character = gbr_elizabeth_ii start_date = 1952.2.6 regnal_number = 2 }
+
+            type = monarchy
+            heir_selection = cognatic_primogeniture
+         }
          country_rank = rank_kingdom
          starting_technology_level = 3
 
@@ -2817,12 +2823,6 @@ countries = {
          }
 
          include = "expl_mdm_whole_world"
-
-         government = {
-            type = republic
-            ruler = random
-
-          }
       }
 
 
