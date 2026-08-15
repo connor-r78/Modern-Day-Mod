@@ -1,3 +1,10 @@
 work_of_art_manager = {
-
+    painting = {
+        location = london 
+        origin = london
+        quality = 95 # won Greatest Painting in Britain Vote
+        key = the_fighting_temeraire
+        creation_date = 1838.1.1
+        artist = gbr_j_m_w_turner
+    }
 }

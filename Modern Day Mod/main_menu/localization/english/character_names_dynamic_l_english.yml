@@ -3470,6 +3470,8 @@
  name_bjorn.norwegian_dialect: "Bjørn"
  name_bjorn.scandinavian_language: "Björn"
  #
+ name_blair: "Blair"
+ #
  name_blaise: "Blaise" # English & French
  name_blaise.albanian_language: "Vlash"
  name_blaise.arpitan_dialect: "Blèse"
@@ -3679,6 +3681,8 @@
  name_bonne.south_italian_language: "Bona"
  name_bonne.spanish_language: "Bona"
  name_bonne.west_slavic_language: "Bona"
+ #
+ name_booth: "Booth"
  #
  name_boril: "Boril" # Bulgarian & Serbo-Croatian (Croatian, Serbian & Slovene)
  name_boril.latin_language: "Borilus"
@@ -4568,6 +4572,8 @@
  name_cheng22.wu_language: "Zen"
  name_cheng22.yue_language: "Sìhng"
  #
+ name_cherie: "Cherie"
+ #
  name_chiano: "Chiano"
  name_chiano.dalmatian_dialect: "Chian"
  name_chiano.lombard_dialect: "Chian"
@@ -4576,6 +4582,8 @@
  name_chiano.sicilian_dialect: "Chianu"
  #
  name_chiavello: "Chiavello"
+ #
+ name_chirac: "Chirac"
  #
  name_chirlo: "Chirlo"
  #
@@ -10962,6 +10970,8 @@
  name_leif.icelandic_dialect: "Leifur"
  name_leif.icelandic_dialect.genitive: "Leif"
  #
+ name_leneghan: "Leneghan"
+ #
  name_leod: "Leod"
  name_leod.gaelic_language: "Leòd"
  name_leod.gaelic_language.genitive: "Leòid"
@@ -12452,6 +12462,8 @@
  #
  name_mazzocco: "Mazzocco"
  #
+ name_mcaleese: "McAleese"
+ #
  name_mei: "Myei" #美
  name_mei.gan_language: "Mi"
  name_mei.jin_language: "Mei"
@@ -13842,7 +13854,7 @@
  name_paul.east_slavic_language: "Pavel" # Павел Russian
  name_paul.finnish_language: "Paavo"
  name_paul.gaelic_language: "Pòl" # Scottish Gaelic
- name_paul.greek_language: "Paúlos" # Παύλος
+ name_paul.greek_language: "Pavlos" # Παύλος
  name_paul.greek_language.diminutive: "Paúlakis"
  name_paul.hungarian_language: "Pál"
  name_paul.japanese_language: "Pōru" # ポール
@@ -17349,6 +17361,8 @@
  name_turlough: "Tarlach"
  name_turlough.english_language: "Turlough"
  name_turlough.gaelic_language: "Toirdelbach"
+ #
+ name_turner: "Turner"
  #
  name_turk: "Turk"
  name_turk.south_italian_language: "Turco"

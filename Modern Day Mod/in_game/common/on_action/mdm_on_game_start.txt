@@ -127,5 +127,9 @@ mdm_on_game_start = {
 			  }
       }
     }
+
+    character:gbr_anne_princess_royal = {
+      join_chivalric_order = mdm_order_of_the_garter
+    }
   }
 }

@@ -10,8 +10,12 @@
  CHARACTER_NAME_ORDER_PREFIX_NUMBER_NICKNAME_LASTNAME_NAME_SUFFIX:  "$PREFIX$ $NUMBER$ $NICKNAME$ $LASTNAME$ $NAME$ $SUFFIX$"
  CHARACTER_NAME_ORDER_TURKISH:                                      "$PREFIX$ $LASTNAME$ $NICKNAME$ $NUMBER$ $NAME$ $SUFFIX$"
  
- character_title_english_prince: "Prince"
- character_title_english_prince_female: "Princess"
+ character_title_english_the_prince: "HRH The Prince"
+ character_title_english_the_prince_female: "HRH The Princess"
+ character_title_english_prince: "HRH Prince"
+ character_title_english_prince_female: "HRH Princess"
+ character_title_english_lord: "Lord"
+ character_title_english_lord_female: "Lady"
 
  # Character.GetCharacterPrefixWithNoTooltip]#! #character_name [Character.GetFirstNameWithNoTooltip]#! #regnal_name [Character.GetCharacterRegnalNumWithNoTooltip]#! #nickname [Character.GetAdultNicknameWithNoTooltip]#! #lastname [Character.GetLastNameWithNoTooltip]#!#suffix_name , [Character.GetAge]#!"
  

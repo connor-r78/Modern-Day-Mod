@@ -2633,7 +2633,7 @@ countries = {
 
       FRA = {
          capital = paris
-         # government = {ruler = fra_emmanuel_macron }
+         government = { ruler = fra_jacques_chirac }
          country_rank = rank_kingdom
          starting_technology_level = 3
 
@@ -2706,7 +2706,6 @@ countries = {
 
          government = {
             type = republic
-            ruler = random
 
           }
       }
@@ -2781,11 +2780,22 @@ countries = {
          capital = london
          government = { 
             ruler = gbr_elizabeth_ii
+            consort = gbr_prince_philip_duke_of_edinburgh
+            heir = gbr_charles_iii
+
+            heir_selection = cognatic_primogeniture
+
+            ruler_term = { character = gbr_victoria start_date = 1837.6.20 end_date = 1901.1.22 } 
+            ruler_term = { character = gbr_edward_vii start_date = 1901.1.22 end_date = 1910.5.6 regnal_number = 7 }
+            ruler_term = { character = gbr_george_v start_date = 1910.5.6 end_date = 1936.1.20 regnal_number = 5 }
+            ruler_term = { character = gbr_edward_viii start_date = 1936.1.20 end_date = 1936.12.11 regnal_number = 8 }
+            ruler_term = { character = gbr_george_vi start_date = 1936.12.11 end_date = 1952.2.6 regnal_number = 6 }
             ruler_term = { character = gbr_elizabeth_ii start_date = 1952.2.6 regnal_number = 2 }
 
             type = monarchy
-            heir_selection = cognatic_primogeniture
+            
          }
+         
          country_rank = rank_kingdom
          starting_technology_level = 3
 
@@ -3550,7 +3560,7 @@ countries = {
 
       IRE = {
          capital = dublin
-         # government = {ruler = ire_michael_higgins }
+         government = { ruler = ire_mary_mcaleese }
          country_rank = rank_kingdom
          starting_technology_level = 3
 
@@ -3570,7 +3580,6 @@ countries = {
 
          government = {
             type = republic
-            ruler = random
 
           }
       }
@@ -6521,7 +6530,7 @@ countries = {
 
       SPA = {
          capital = madrid
-         # government = {ruler = spa_felipe_vi_de_bourbon_1 }
+         government = { ruler = spa_juan_carlos_i }
          country_rank = rank_kingdom
          starting_technology_level = 3
 
@@ -6569,12 +6578,7 @@ countries = {
 
          #include = "republic"
          include = "expl_mdm_whole_world"
-
-         government = {
-            type = republic
-            ruler = random
-
-          }
+         
       }
 
 

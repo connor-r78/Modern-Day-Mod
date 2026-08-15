@@ -143,7 +143,68 @@
 	}
 
 	text = {
+		localization_key = character_title_english_the_prince
+
+		trigger = {
+			is_ruler = no
+			c:GBR = {
+				any_ruler = {
+					OR = {
+						is_parent_of = root
+						AND = {
+							is_female = yes
+							is_parent_of = root.first_spouse
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
 		localization_key = character_title_english_prince
+
+		trigger = {
+			is_ruler = no
+			c:GBR = {
+				any_ruler = {
+					OR = {
+						is_parent_of = root.father
+						AND = {
+							is_female = yes
+							is_parent_of = root.first_spouse.father
+						}
+						AND = {
+							is_parent_of = root.father.father
+							root.father.father ?= { is_heir_of = c:GBR }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = character_title_english_lord
+
+		trigger = {
+			is_ruler = no
+			c:GBR = {
+				any_ruler = {
+					OR = {
+						is_parent_of = root.father.father
+						AND = {
+							is_female = yes
+							is_parent_of = root.first_spouse.father.father
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = character_title_english_lord
 
 		trigger = {
 			is_ruler = no

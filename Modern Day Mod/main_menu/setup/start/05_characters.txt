@@ -1,17 +1,296 @@
 character_db = {
-    gbr_queen_elizabeth_the_queen_mother = {
-        first_name = { name = name_elizabeth }
+    ire_mary_mcaleese = {
+        first_name = { name = name_mary }
+        last_name = { name = name_leneghan }
+        culture = anglo_irish
+        religion = catholic
+        birth_date = 1951.6.27
+        birth = belfast
+        female = yes
+
+        tag = IRE
+        estate = crown_estate
+    }
+
+    ire_martin_mcaleese = {
+        first_name = { name = name_martin }
+        last_name = { name = name_mcaleese }
+        culture = anglo_irish
+        religion = catholic
+        birth_date = 1951.3.24
+        birth = belfast
+
+        tag = IRE
+        estate = crown_estate
+
+        spouse = ire_mary_mcaleese
+    }
+
+    fra_jacques_chirac = {
+        first_name = { name = name_james }
+        last_name = { name = name_chirac }
+        culture = french
+        religion = catholic
+        birth_date = 1932.11.29
+        birth = paris
+
+        tag = FRA
+        estate = crown_estate
+    }
+
+    gbr_j_m_w_turner = {
+        first_name = { name = name_joseph }
+        last_name = { name = name_turner }
         culture = english
         religion = anglican
-        birth_date = 1900.8.4
-        female = yes
+        birth_date = 1775.4.23
         birth = london
+        death_date = 1851.12.19
+
+        tag = GBR
+        estate = burghers_estate
+
+        artist_skill = 0.95
+        artist = painter
+    }
+
+    gbr_tony_booth_actor = {
+        first_name = { name = name_anthony }
+        last_name = { name = name_booth }
+        culture = northumbrian
+        religion = catholic
+        birth_date = 1931.10.9
+        birth = liverpool
+
+        tag = GBR
+        estate = burghers_estate
+    }
+
+    gbr_cherie_blair = {
+        first_name = { name = name_cherie }
+        last_name = { name = name_booth }
+        culture = northumbrian
+        religion = catholic
+        birth_date = 1954.9.23
+        birth = bury
+        female = yes
+
+        tag = GBR
+        estate = burghers_estate
+
+        father = gbr_tony_booth_actor
+    }
+
+    gbr_tony_blair = {
+        first_name = { name = name_anthony }
+        last_name = { name = name_blair }
+        culture = scottish
+        religion = anglican
+        birth_date = 1953.5.6
+        birth = edinburgh
+
+        tag = GBR
+        estate = burghers_estate
+
+        spouse = gbr_cherie_blair
+    }
+
+    gbr_george_iii = {
+        first_name = { name = name_george }
+        culture = english
+        religion = angligan
+        birth_date = 1738.6.4
+        birth = london
+        death_date = 1820.1.29
+
+        tag = GER
+        estate = crown_estate
+        dynasty = hanover_dynasty
+    }
+    
+    gbr_prince_edward_duke_of_kent_and_strathearn = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = anglican
+        birth_date = 1767.11.2
+        birth = london
+        death_date = 1820.1.23
 
         tag = GBR
         estate = crown_estate
-        dynasty = bowes_lyon_dynasty
+        dynasty = hanover_dynasty
+
+        father = gbr_george_iii
     }
     
+    gbr_victoria = {
+        first_name = { name = name_victoria }
+        culture = english
+        religion = anglican
+        birth_date = 1819.5.24
+        birth = london
+        female = yes
+        death_date = 1901.1.22
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = hanover_dynasty
+
+        father = gbr_prince_edward_duke_of_kent_and_strathearn
+    }
+
+    ger_ernest_augustus_king_of_hanover = {
+        first_name = { name = name_ernest.name_august }
+        culture = mdm_low_german_culture
+        religion = angligan
+        birth_date = 1771.6.5
+        birth = london
+        death_date = 1878.6.12
+
+        tag = GER
+        estate = crown_estate
+        dynasty = hanover_dynasty
+
+        father = gbr_george_iii
+    }
+
+    ger_george_v_of_hanover = {
+        first_name = { name = name_george }
+        culture = mdm_low_german_culture
+        religion = lutheran
+        birth_date = 1819.5.27
+        birth = berlin
+        death_date = 1878.6.12
+
+        tag = GER
+        estate = crown_estate
+        dynasty = hanover_dynasty
+
+        father = ger_ernest_augustus_crown_prince_of_hanover
+    }
+
+    ger_ernest_augustus_crown_prince_of_hanover = {
+        first_name = { name = name_ernest.name_august }
+        culture = mdm_low_german_culture
+        religion = lutheran
+        birth_date = 1845.9.21
+        birth = hanover
+        death_date = 1923.11.14
+
+        tag = GER
+        estate = noblity_estate
+        dynasty = hanover_dynasty
+
+        father = ger_george_v_of_hanover
+    }
+
+    ger_ernest_augustus_duke_of_brunswick = {
+        first_name = { name = name_ernest.name_august }
+        culture = mdm_low_german_culture
+        religion = lutheran
+        birth_date = 1887.11.17
+        birth = vienna
+        death_date = 1953.1.30
+
+        tag = GER
+        estate = noblity_estate
+        dynasty = hanover_dynasty
+
+        father = ger_ernest_augustus_crown_prince_of_hanover
+    }
+
+    gre_frederica_of_hanover = {
+        first_name = { name = name_frederica }
+        culture = mdm_low_german_culture
+        religion = orthodox
+        birth_date = 1917.4.18
+        birth = blankenburg
+        female = yes
+        death_date = 1981.2.12
+
+        tag = GRE
+        estate = crown_estate
+        dynasty = hanover_dynasty
+
+        father = ger_ernest_augustus_duke_of_brunswick
+    }
+
+    ger_prince_albert_of_saxe_coburg_and_gotha = {
+        first_name = { name = name_albert }
+        culture = english
+        religion = anglican
+        birth_date = 1819.8.26
+        birth = coburg
+        death_date = 1901.1.22
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = saxe_coburg_gotha_dynasty
+    }
+    
+    gbr_victoria_princess_royal = {
+        first_name = { name = name_victoria }
+        culture = english
+        religion = anglican
+        birth_date = 1840.11.21
+        birth = london
+        female = yes
+        death_date = 1901.8.5
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = saxe_coburg_gotha_dynasty
+
+        mother = gbr_victoria
+        father = ger_prince_albert_of_saxe_coburg_and_gotha
+    }
+
+    gbr_edward_vii = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = anglican
+        birth_date = 1841.11.9
+        birth = london
+        death_date = 1910.5.6
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = saxe_coburg_gotha_dynasty
+
+        mother = gbr_victoria
+        father = ger_prince_albert_of_saxe_coburg_and_gotha
+    }
+    
+    gbr_george_v = {
+        first_name = { name = name_george }
+        culture = english
+        religion = anglican
+        birth_date = 1865.6.3
+        birth = london
+        death_date = 1936.1.20
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        father = gbr_edward_vii
+    }
+
+    gbr_edward_viii = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = anglican
+        birth_date = 1894.6.23
+        birth = norfolk
+        death_date = 1972.5.28
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = windsor_dynasty
+
+        father = gbr_george_v
+    }
+
     gbr_george_vi = {
         first_name = { name = name_george }
         culture = english
@@ -23,6 +302,21 @@ character_db = {
         tag = GBR
         estate = crown_estate
         dynasty = windsor_dynasty
+
+        father = gbr_george_v
+    }
+    
+    gbr_queen_elizabeth_the_queen_mother = {
+        first_name = { name = name_elizabeth }
+        culture = english
+        religion = anglican
+        birth_date = 1900.8.4
+        female = yes
+        birth = london
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = bowes_lyon_dynasty
     }
     
     gbr_elizabeth_ii = {
@@ -41,6 +335,243 @@ character_db = {
         mother = gbr_queen_elizabeth_the_queen_mother
     }
 
+    den_christian_ix = {
+        first_name = { name = name_christian }
+        culture = danish
+        religion = lutheran
+        birth_date = 1818.4.8
+        birth = slesvig
+        death_date = 1906.1.29
+
+        tag = DEN
+        estate = crown_estate
+        dynasty = glucksburg_dynasty
+    }
+
+    gre_george_i_of_greece = {
+        first_name = { name = name_george }
+        culture = danish
+        religion = lutheran
+        birth_date = 1845.12.24
+        birth = kobenhavn
+        death_date = 1913.3.18
+
+        tag = GRE
+        estate = crown_estate
+        dynasty = glucksburg_dynasty
+
+        father = den_christian_ix
+    }
+
+    gre_constantine_i = {
+        first_name = { name = name_constantine }
+        culture = greek
+        religion = orthodox
+        birth_date = 1868.8.2
+        birth = athens
+        death_date = 1923.1.11
+
+        tag = GRE
+        estate = crown_estate
+        dynasty = glucksburg_dynasty
+
+        father = gre_george_i_of_greece
+    }
+
+    gre_george_ii_of_greece = {
+        first_name = { name = name_george }
+        culture = greek
+        religion = orthodox
+        birth_date = 1890.7.19
+        birth = athens
+        death_date = 1947.4.1
+
+        tag = GRE
+        estate = crown_estate
+        dynasty = glucksburg_dynasty
+
+        father = gre_constantine_i
+    }
+
+    gre_alexander_of_greece = {
+        first_name = { name = name_alexander }
+        culture = greek
+        religion = orthodox
+        birth_date = 1893.8.1
+        birth = athens
+        death_date = 1920.8.25
+
+        tag = GRE
+        estate = crown_estate
+        dynasty = glucksburg_dynasty
+
+        father = gre_constantine_i
+    }
+
+    gre_paul_of_greece = {
+        first_name = { name = name_paul }
+        culture = greek
+        religion = orthodox
+        birth_date = 1901.12.14
+        birth = athens
+        death_date = 1964.3.6
+
+        tag = GRE
+        estate = crown_estate
+        dynasty = glucksburg_dynasty
+
+        father = gre_constantine_i
+        spouse = gre_frederica_of_hanover
+    }
+
+    spa_queen_sofia_of_spain = {
+        first_name = { name = name_sophia }
+        culture = greek
+        religion = catholic
+        birth_date = 1938.11.2
+        birth = athens
+        female = yes
+
+        tag = SPA
+        estate = crown_estate
+        dynasty = glucksburg_dynasty
+
+        father = gre_paul_of_greece
+        mother = gre_frederica_of_hanover
+    }
+
+    spa_juan_carlos_i = {
+        first_name = { name = name_john.name_charles }
+        culture = greek
+        religion = catholic
+        birth_date = 1938.1.5
+        birth = rome
+
+        tag = SPA
+        estate = crown_estate
+        dynasty = bourbon_anjou_dynasty
+
+        spouse = spa_queen_sofia_of_spain
+    }
+
+    spa_infanta_elena_duchess_of_lugo = {
+        first_name = { name = name_helen }
+        culture = mdm_spanish_culture
+        religion = catholic
+        birth_date = 1963.12.20
+        birth = madrid
+        female = yes
+
+        tag = SPA
+        estate = crown_estate
+        dynasty = bourbon_anjou_dynasty
+
+        father = spa_juan_carlos_i
+        mother = spa_queen_sofia_of_spain
+    }
+
+    spa_jaime_de_marichalar = {
+        first_name = { name = name_helen }
+        culture = mdm_spanish_culture
+        religion = catholic
+        birth_date = 1963.12.20
+        birth = pamplona
+
+        tag = SPA
+        estate = nobility_estate
+        dynasty = marichalar_dynasty
+
+        spouse = spa_infanta_elena_duchess_of_lugo
+    }
+
+    spa_felipe_de_marichalar_y_borbon = {
+        first_name = { name = name_philip }
+        culture = mdm_spanish_culture
+        religion = catholic
+        birth_date = 1998.7.17
+        birth = madrid
+
+        tag = SPA
+        estate = nobility_estate
+        dynasty = marichalar_dynasty
+
+        father = spa_jaime_de_marichalar
+        mother = spa_infanta_elena_duchess_of_lugo
+    }
+
+    spa_infanta_cristina_of_spain = {
+        first_name = { name = name_christine }
+        culture = mdm_spanish_culture
+        religion = catholic
+        birth_date = 1965.6.13
+        birth = madrid
+        female = yes
+
+        tag = SPA
+        estate = crown_estate
+        dynasty = bourbon_anjou_dynasty
+
+        father = spa_juan_carlos_i
+        mother = spa_queen_sofia_of_spain
+    }
+
+    spa_inaki_urdangarin = {
+        first_name = { name = name_christine }
+        culture = mdm_spanish_culture
+        religion = catholic
+        birth_date = 1968.1.15
+        birth = san_sebastian # Zumarraga, Gipuzkoa
+
+        tag = SPA
+        estate = burghers_estate
+
+        spouse = spa_infanta_cristina_of_spain
+    }
+
+    spa_juan_valentin_urdangarin_y_borbon_grandee_of_spain = {
+        first_name = { name = name_christine }
+        culture = mdm_spanish_culture
+        religion = catholic
+        birth_date = 1999.9.29
+        birth = barcelona
+
+        tag = SPA
+        estate = crown_estate
+
+        father = spa_inaki_urdangarin
+        mother = spa_infanta_cristina_of_spain
+    }
+
+    spa_felipe_vi = {
+        first_name = { name = name_philip }
+        culture = mdm_spanish_culture
+        religion = catholic
+        birth_date = 1968.1.30
+        birth = madrid
+
+        tag = SPA
+        estate = crown_estate
+        dynasty = bourbon_anjou_dynasty
+
+        father = spa_juan_carlos_i
+        mother = spa_queen_sofia_of_spain
+    }
+
+    gre_andrew_of_greece_and_denmark = {
+        first_name = { name = name_andrew }
+        culture = greek
+        religion = orthodox
+        birth_date = 1882.2.2
+        birth = athens
+        death_date = 1944.12.3
+
+        tag = GRE
+        estate = crown_estate
+        dynasty = glucksburg_dynasty
+
+        father = gre_george_i_of_greece
+    }
+
     gbr_prince_philip_duke_of_edinburgh = {
         first_name = { name = name_philip.english_language }
         culture = danish
@@ -52,6 +583,7 @@ character_db = {
         estate = crown_estate
         dynasty = mountbatten_dynasty
 
+        father = gre_andrew_of_greece_and_denmark
         spouse = gbr_elizabeth_ii
     }
 
@@ -76,7 +608,7 @@ character_db = {
 
         tag = GBR
         estate = crown_estate
-        dynasty = mountbatten_windsor_dynasty
+        dynasty = windsor_dynasty
 
         mother = gbr_elizabeth_ii
         father = gbr_prince_philip_duke_of_edinburgh
@@ -275,6 +807,56 @@ character_db = {
 
         father = gbr_george_vi
         mother = gbr_queen_elizabeth_the_queen_mother
+    }
+
+    gbr_princess_alice_of_the_united_kingdom = {
+        first_name = { name = name_alice }
+        culture = english
+        religion = anglican
+        birth_date = 1843.4.25
+        birth = london
+        female = yes
+        death_date = 1878.12.14
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = saxe_coburg_gotha_dynasty
+
+        mother = gbr_victoria
+        father = ger_prince_albert_of_saxe_coburg_and_gotha
+    }
+
+    ger_alfred_duke_of_saxe_coburg_and_gotha = {
+        first_name = { name = name_alfred }
+        culture = english
+        religion = anglican
+        birth_date = 1844.8.6
+        birth = windsor
+        death_date = 1900.7.30
+
+        tag = GER
+        estate = crown_estate
+        dynasty = saxe_coburg_gotha_dynasty
+
+        mother = gbr_victoria
+        father = ger_prince_albert_of_saxe_coburg_and_gotha
+    }
+
+    gbr_princess_helena_of_the_united_kingdom = {
+        first_name = { name = name_helen }
+        culture = english
+        religion = anglican
+        birth_date = 1846.5.25
+        birth = london
+        female = yes
+        death_date = 1923.6.9
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = saxe_coburg_gotha_dynasty
+
+        mother = gbr_victoria
+        father = ger_prince_albert_of_saxe_coburg_and_gotha
     }
     
     usa_dorothy_howell_rodham = {
