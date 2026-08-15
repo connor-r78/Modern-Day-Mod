@@ -537,6 +537,16 @@ ELSA = { #didnt use hoi4 color here
 	difficulty = 2
 }
 
+ENG = {
+	color = rgb { 201  56  93 } #{ 153  0 0 }
+	color2 = rgb { 201  56  93 } #{ 153  0 0 }
+	culture_definition = english
+	religion_definition = anglican
+	is_historic = yes
+	description_category = diplomatic
+	difficulty = 2
+}
+
 #EGU
 EQGU = {
 	color = rgb { 255 255 255 } # Equatorial Guinea flag white
@@ -662,7 +672,7 @@ GBR = {
 	color = rgb { 201  56  93 } #{ 153  0 0 }
 	color2 = rgb { 201  56  93 } #{ 153  0 0 }
 	culture_definition = english
-	religion_definition = catholic #religion_definition = secularism #commented out to remove errors for now
+	religion_definition = anglican #religion_definition = secularism #commented out to remove errors for now
 	description_category = diplomatic
 	difficulty = 2
 }

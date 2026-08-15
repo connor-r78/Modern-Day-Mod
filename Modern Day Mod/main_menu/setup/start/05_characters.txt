@@ -95,19 +95,248 @@ character_db = {
         spouse = gbr_cherie_blair
     }
 
+    eng_james_vi_and_i = {
+        first_name = { name = name_james }
+        culture = scottish
+        religion = reformed
+        birth_date = 1566.6.19
+        birth = edinburgh
+        death_date = 1625.3.27
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = stuart_dynasty
+    }
+
+    eng_charles_i_of_england = {
+        first_name = { name = name_charles }
+        culture = scottish
+        religion = anglican
+        birth_date = 1600.11.19
+        birth = dumfermline
+        death_date = 1649.1.30
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = stuart_dynasty
+
+        father = eng_james_vi_and_i
+    }
+
+    eng_charles_ii_of_england = {
+        first_name = { name = name_charles }
+        culture = english
+        religion = anglican
+        birth_date = 1630.5.29
+        birth = london
+        death_date = 1685.2.6
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = stuart_dynasty
+
+        father = eng_charles_i_of_england
+    }
+
+    eng_mary_princess_royal_and_princess_of_orange = {
+        first_name = { name = name_mary }
+        culture = english
+        religion = anglican
+        birth_date = 1631.11.4
+        birth = london
+        death_date = 1660.12.24
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = stuart_dynasty
+
+        father = eng_charles_i_of_england
+    }
+
+    eng_william_iii_of_england = {
+        first_name = { name = name_william }
+        culture = english
+        religion = reformed
+        birth_date = 1650.11.4
+        birth = the_hague
+        death_date = 1702.3.19
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = orange_nassai_dynasty
+
+        father = eng_charles_i_of_england
+    }
+
+    eng_james_ii_of_england = {
+        first_name = { name = name_james }
+        culture = english
+        religion = catholic
+        birth_date = 1633.10.14
+        birth = london
+        death_date = 1701.9.16
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = stuart_dynasty
+
+        father = eng_charles_i_of_england
+    }
+
+    eng_mary_ii = {
+        first_name = { name = name_mary }
+        culture = english
+        religion = anglican
+        birth_date = 1662.5.10
+        birth = london
+        female = yes
+        death_date = 1695.1.7
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = stuart_dynasty
+
+        father = eng_james_ii_of_england
+    }
+
+    gbr_anne_queen_of_great_britain = {
+        first_name = { name = name_anna }
+        culture = english
+        religion = anglican
+        birth_date = 1665.2.6
+        birth = london
+        female = yes
+        death_date = 1714.8.1
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = stuart_dynasty
+
+        father = eng_james_ii_of_england
+    }
+
+    ger_elizabeth_stuart_queen_of_bohemia = {
+        first_name = { name = name_sophia }
+        culture = scots
+        religion = reformed
+        birth_date = 1596.8.19
+        birth = dumfermline
+        female = yes
+        death_date = 1662.2.13
+
+        tag = GER
+        estate = crown_estate
+        dynasty = stuart_dynasty
+
+        father = gbr_james_vi_and_i
+    }
+
+    ger_sophia_of_hanover = {
+        first_name = { name = name_sophia }
+        culture = english
+        religion = anglican
+        birth_date = 1630.10.14
+        birth = the_hague
+        female = yes
+        death_date = 1714.6.8
+
+        tag = GER
+        estate = crown_estate
+        dynasty = palatinate_simmern_dynasty
+
+        mother = ger_elizabeth_stuart_queen_of_bohemia
+    }
+
+    gbr_george_i = {
+        first_name = { name = name_george }
+        culture = english
+        religion = anglican
+        birth_date = 1660.5.28
+        birth = hanover
+        death_date = 1760.10.25
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = palatinate_simmern_dynasty
+
+        mother = ger_sophia_of_hanover
+    }
+
+    gbr_george_ii = {
+        first_name = { name = name_george }
+        culture = english
+        religion = anglican
+        birth_date = 1683.11.9
+        birth = hanover
+        death_date = 1760.10.25
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = hanover_dynasty
+
+        father = gbr_george_i
+    }
+
+    gbr_frederick_prince_of_wales = {
+        first_name = { name = name_frederick }
+        culture = english
+        religion = anglican
+        birth_date = 1707.1.31
+        birth = hanover
+        death_date = 1751.3.31
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = hanover_dynasty
+
+        father = gbr_george_ii
+    }
+
     gbr_george_iii = {
         first_name = { name = name_george }
         culture = english
-        religion = angligan
+        religion = anglican
         birth_date = 1738.6.4
         birth = london
         death_date = 1820.1.29
 
-        tag = GER
+        tag = GBR
         estate = crown_estate
         dynasty = hanover_dynasty
+
+        father = gbr_frederick_prince_of_wales
     }
     
+    gbr_george_iv = {
+        first_name = { name = name_george }
+        culture = english
+        religion = anglican
+        birth_date = 1762.8.12
+        birth = london
+        death_date = 1830.6.26
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = hanover_dynasty
+
+        father = gbr_george_iii
+    }
+
+    gbr_william_iv = {
+        first_name = { name = name_william }
+        culture = english
+        religion = anglican
+        birth_date = 1765.8.21
+        birth = london
+        death_date = 1837.6.20
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = hanover_dynasty
+
+        father = gbr_george_iii
+    }
+
     gbr_prince_edward_duke_of_kent_and_strathearn = {
         first_name = { name = name_edward }
         culture = english
@@ -365,7 +594,7 @@ character_db = {
 
     gre_constantine_i = {
         first_name = { name = name_constantine }
-        culture = greek
+        culture = greek_culture
         religion = orthodox
         birth_date = 1868.8.2
         birth = athens
@@ -380,7 +609,7 @@ character_db = {
 
     gre_george_ii_of_greece = {
         first_name = { name = name_george }
-        culture = greek
+        culture = greek_culture
         religion = orthodox
         birth_date = 1890.7.19
         birth = athens
@@ -395,7 +624,7 @@ character_db = {
 
     gre_alexander_of_greece = {
         first_name = { name = name_alexander }
-        culture = greek
+        culture = greek_culture
         religion = orthodox
         birth_date = 1893.8.1
         birth = athens
@@ -410,7 +639,7 @@ character_db = {
 
     gre_paul_of_greece = {
         first_name = { name = name_paul }
-        culture = greek
+        culture = greek_culture
         religion = orthodox
         birth_date = 1901.12.14
         birth = athens
@@ -426,7 +655,7 @@ character_db = {
 
     spa_queen_sofia_of_spain = {
         first_name = { name = name_sophia }
-        culture = greek
+        culture = greek_culture
         religion = catholic
         birth_date = 1938.11.2
         birth = athens
@@ -442,7 +671,7 @@ character_db = {
 
     spa_juan_carlos_i = {
         first_name = { name = name_john.name_charles }
-        culture = greek
+        culture = castilian
         religion = catholic
         birth_date = 1938.1.5
         birth = rome
@@ -456,7 +685,7 @@ character_db = {
 
     spa_infanta_elena_duchess_of_lugo = {
         first_name = { name = name_helen }
-        culture = mdm_spanish_culture
+        culture = castilian
         religion = catholic
         birth_date = 1963.12.20
         birth = madrid
@@ -472,13 +701,13 @@ character_db = {
 
     spa_jaime_de_marichalar = {
         first_name = { name = name_helen }
-        culture = mdm_spanish_culture
+        culture = castilian
         religion = catholic
         birth_date = 1963.12.20
         birth = pamplona
 
         tag = SPA
-        estate = nobility_estate
+        estate = nobles_estate
         dynasty = marichalar_dynasty
 
         spouse = spa_infanta_elena_duchess_of_lugo
@@ -486,13 +715,13 @@ character_db = {
 
     spa_felipe_de_marichalar_y_borbon = {
         first_name = { name = name_philip }
-        culture = mdm_spanish_culture
+        culture = castilian
         religion = catholic
         birth_date = 1998.7.17
         birth = madrid
 
         tag = SPA
-        estate = nobility_estate
+        estate = nobles_estate
         dynasty = marichalar_dynasty
 
         father = spa_jaime_de_marichalar
@@ -501,7 +730,7 @@ character_db = {
 
     spa_infanta_cristina_of_spain = {
         first_name = { name = name_christine }
-        culture = mdm_spanish_culture
+        culture = castilian
         religion = catholic
         birth_date = 1965.6.13
         birth = madrid
@@ -517,7 +746,7 @@ character_db = {
 
     spa_inaki_urdangarin = {
         first_name = { name = name_christine }
-        culture = mdm_spanish_culture
+        culture = castilian
         religion = catholic
         birth_date = 1968.1.15
         birth = san_sebastian # Zumarraga, Gipuzkoa
@@ -530,7 +759,7 @@ character_db = {
 
     spa_juan_valentin_urdangarin_y_borbon_grandee_of_spain = {
         first_name = { name = name_christine }
-        culture = mdm_spanish_culture
+        culture = castilian
         religion = catholic
         birth_date = 1999.9.29
         birth = barcelona
@@ -544,7 +773,7 @@ character_db = {
 
     spa_felipe_vi = {
         first_name = { name = name_philip }
-        culture = mdm_spanish_culture
+        culture = castilian
         religion = catholic
         birth_date = 1968.1.30
         birth = madrid

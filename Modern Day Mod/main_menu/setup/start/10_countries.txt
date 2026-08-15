@@ -2421,6 +2421,11 @@ countries = {
           }
       }
 
+      ENG = {
+         country_rank = rank_kingdom
+
+       }
+
 
       EQGU = {
          capital = fernando_po
@@ -2781,10 +2786,12 @@ countries = {
          government = { 
             ruler = gbr_elizabeth_ii
             consort = gbr_prince_philip_duke_of_edinburgh
-            heir = gbr_charles_iii
 
             heir_selection = cognatic_primogeniture
 
+            ruler_term = { character = gbr_george_iii start_date = 1760.10.25 end_date = 1820.1.29 regnal_number = 3 }
+            ruler_term = { character = gbr_george_iv start_date = 1820.1.29 end_date = 1830.6.26 regnal_number = 4 }
+            ruler_term = { character = gbr_william_iv start_date = 1830.6.26 end_date = 1837.6.20 regnal_number = 4 }
             ruler_term = { character = gbr_victoria start_date = 1837.6.20 end_date = 1901.1.22 } 
             ruler_term = { character = gbr_edward_vii start_date = 1901.1.22 end_date = 1910.5.6 regnal_number = 7 }
             ruler_term = { character = gbr_george_v start_date = 1910.5.6 end_date = 1936.1.20 regnal_number = 5 }
@@ -2792,8 +2799,7 @@ countries = {
             ruler_term = { character = gbr_george_vi start_date = 1936.12.11 end_date = 1952.2.6 regnal_number = 6 }
             ruler_term = { character = gbr_elizabeth_ii start_date = 1952.2.6 regnal_number = 2 }
 
-            type = monarchy
-            
+            type = monarchy 
          }
          
          country_rank = rank_kingdom
