@@ -1,0 +1,11 @@
+countries = {
+	countries = {
+		#TODO: add area preferences that fit for modern day
+		#something for way later for space colonisation perhaps, and other stuff
+		#SWE = {
+		#	area_preferences = {
+		#		sweden_colonize_finland sweden_colonize_norrland
+		#	}
+		#}
+	}
+}

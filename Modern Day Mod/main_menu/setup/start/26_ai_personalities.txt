@@ -1,0 +1,7 @@
+countries = {
+	countries = {
+		#TODO: add ai personalities that fit for modern day
+		#something for later
+		#ORK = { ai_personality = ai_isolationist }
+	}
+}
