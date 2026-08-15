@@ -98,7 +98,7 @@ character_db = {
     eng_james_vi_and_i = {
         first_name = { name = name_james }
         culture = scottish
-        religion = reformed
+        religion = calvinist
         birth_date = 1566.6.19
         birth = edinburgh
         death_date = 1625.3.27
@@ -156,7 +156,7 @@ character_db = {
     eng_william_iii_of_england = {
         first_name = { name = name_william }
         culture = english
-        religion = reformed
+        religion = calvinist
         birth_date = 1650.11.4
         birth = the_hague
         death_date = 1702.3.19
@@ -218,7 +218,7 @@ character_db = {
     ger_elizabeth_stuart_queen_of_bohemia = {
         first_name = { name = name_sophia }
         culture = scots
-        religion = reformed
+        religion = calvinist
         birth_date = 1596.8.19
         birth = dumfermline
         female = yes
@@ -249,7 +249,7 @@ character_db = {
 
     gbr_george_i = {
         first_name = { name = name_george }
-        culture = english
+        culture = mdm_low_german_culture
         religion = anglican
         birth_date = 1660.5.28
         birth = hanover
@@ -264,7 +264,7 @@ character_db = {
 
     gbr_george_ii = {
         first_name = { name = name_george }
-        culture = english
+        culture = mdm_low_german_culture
         religion = anglican
         birth_date = 1683.11.9
         birth = hanover
@@ -279,7 +279,7 @@ character_db = {
 
     gbr_frederick_prince_of_wales = {
         first_name = { name = name_frederick }
-        culture = english
+        culture = mdm_low_german_culture
         religion = anglican
         birth_date = 1707.1.31
         birth = hanover
@@ -1087,7 +1087,203 @@ character_db = {
         mother = gbr_victoria
         father = ger_prince_albert_of_saxe_coburg_and_gotha
     }
+
+    ned_anne_princess_royal_and_princess_of_orange = {
+        first_name = { name = name_anna }
+        culture = mdm_low_german_culture
+        religion = anglican
+        birth_date = 1709.11.2
+        birth = hanover
+        death_date = 1759.1.12
+
+        tag = GBR
+        estate = crown_estate
+        dynasty = hanover_dynasty
+
+        father = gbr_george_ii
+    }
+
+    ned_william_iv_prince_of_orange = {
+        first_name = { name = name_william }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1711.9.1
+        birth = leeuwarden
+        death_date = 1751.10.22
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        spouse = ned_anne_princess_royal_and_princess_of_orange
+    }
     
+    ned_william_v_prince_of_orange = {
+        first_name = { name = name_william }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1748.3.8
+        birth = the_hague
+        death_date = 1806.4.9
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        father = ned_william_iv_prince_of_orange
+        mother = ned_anne_princess_royal_and_princess_of_orange
+    }
+
+    ned_william_i_of_the_netherlands = {
+        first_name = { name = name_william }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1772.8.24
+        birth = the_hague
+        death_date = 1843.
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        father = ned_william_v_prince_of_orange
+    }
+
+    ned_william_ii_of_the_netherlands = {
+        first_name = { name = name_william }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1792.12.6
+        birth = the_hague
+        death_date = 1849.3.17
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        father = ned_william_i_of_the_netherlands
+    }
+
+    ned_william_iii_of_the_netherlands = {
+        first_name = { name = name_william }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1817.2.19
+        birth = the_hague
+        death_date = 1890.11.23
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        father = ned_william_ii_of_the_netherlands
+    }
+
+    ned_wilhelmina_of_the_netherlands = {
+        first_name = { name = name_willelma }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1880.8.31
+        birth = the_hague
+        female = yes
+        death_date = 1962.11.28
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        father = ned_william_iii_of_the_netherlands
+    }
+
+    ned_juliana_of_the_netherlands = {
+        first_name = { name = name_julianne }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1909.4.30
+        birth = the_hague
+        female = yes
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        mother = ned_wilhelmina_of_the_netherlands
+    }
+
+    ned_beatrix_of_the_netherlands = {
+        first_name = { name = name_beatrix }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1938.1.31
+        birth = utrecht
+        female = yes
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        mother = ned_juliana_of_the_netherlands
+    }
+
+    ned_prince_claus_of_the_netherlands = {
+        first_name = { name = name_claus }
+        culture = mdm_low_german_culture
+        religion = calvinist
+        birth_date = 1926.9.6
+        birth = luchow # Hitzacker, Lower Saxony
+
+        tag = NED
+        estate = crown_estate
+        dynasty = amsberg_dynasty
+
+        spouse = ned_beatrix_of_the_netherlands
+    }
+
+    ned_willem_alexander_of_the_netherlands = {
+        first_name = { name = name_william.name_alexander }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1967.4.27
+        birth = utrecht
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        mother = ned_beatrix_of_the_netherlands
+        father = ned_prince_claus_of_the_netherlands
+    }
+
+    ned_prince_friso_of_orange_nassau = {
+        first_name = { name = name_john.name_friso }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1968.9.25
+        birth = utrecht
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        mother = ned_beatrix_of_the_netherlands
+        father = ned_prince_claus_of_the_netherlands
+    }
+
+    ned_prince_constantijn_of_orange_nassau = {
+        first_name = { name = name_constantine }
+        culture = mdm_dutch_culture
+        religion = calvinist
+        birth_date = 1969.10.11
+        birth = utrecht
+
+        tag = NED
+        estate = crown_estate
+        dynasty = orange_nassau_dynasty
+
+        mother = ned_beatrix_of_the_netherlands
+        father = ned_prince_claus_of_the_netherlands
+    }
+
     usa_dorothy_howell_rodham = {
         first_name = { name = name_dorothy }
         last_name = { name = name_howell }

@@ -4772,6 +4772,9 @@
  name_claudia.sicilian_dialect: "Chiaudia"
  name_claudia.slovene_dialect: "Klavdija"
  #
+ name_claus: "Claus"
+ name_claus.german_language: "Klaus"
+ #
  name_clemence: "Clemence"
  name_clemence.arpitan_dialect: "Cllèmence"
  name_clemence.basque_language: "Mentzia"
@@ -7435,6 +7438,8 @@
  name_frieda.dutch_dialect: "Frida"
  name_frieda.frisian_language: "Femke"
  name_frieda.german_language.alternative: "Frida"
+ #
+ name_friso: "Friso"
  #
  name_friulian: "Friulian"
  name_friulian.north_italian_language: "Forlano"
@@ -18227,7 +18232,7 @@
  name_wilfred.spanish_language: "Wifredo"
  #
  name_willelma: "Willelma"
- name_willelma.dutch_dialect: "Willemijn"
+ name_willelma.dutch_dialect: "Wilhelmina"
  name_willelma.finnish_language: "Vilhelmiina"
  name_willelma.finnish_language.diminutive: "Helmi"
  name_willelma.german_language: "Wilhelmina"

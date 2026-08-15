@@ -20,7 +20,7 @@ countries = {
             type = republic
             ruler = random
 
-          }
+         }
       }
 
 
@@ -2789,6 +2789,9 @@ countries = {
 
             heir_selection = cognatic_primogeniture
 
+            ruler_term = { character = gbr_anne_queen_of_great_britain start_date = 1707.5.1 end_date = 1714.8.1 }
+            ruler_term = { character = gbr_george_i start_date = 1714.8.1 end_date = 1727.6.22 regnal_number = 1 }
+            ruler_term = { character = gbr_george_ii start_date = 1727.6.22 end_date = 1760.10.25 regnal_number = 2 }
             ruler_term = { character = gbr_george_iii start_date = 1760.10.25 end_date = 1820.1.29 regnal_number = 3 }
             ruler_term = { character = gbr_george_iv start_date = 1820.1.29 end_date = 1830.6.26 regnal_number = 4 }
             ruler_term = { character = gbr_william_iv start_date = 1830.6.26 end_date = 1837.6.20 regnal_number = 4 }
@@ -5040,7 +5043,20 @@ countries = {
 
       NED = {
          capital = amsterdam
-         # government = {ruler = ned_willem_alexander_i_van_oranje_1 }
+         government = { 
+            ruler = ned_beatrix_of_the_netherlands
+
+            heir_selection = absolute_primogeniture
+
+            ruler_term = { character = ned_william_i_of_the_netherlands start_date = 1813.11.20 end_date = 1840.10.7 regnal_number = 1 }
+            ruler_term = { character = ned_william_ii_of_the_netherlands start_date = 1840.10.7 end_date = 1849.3.17 regnal_number = 2 }
+            ruler_term = { character = ned_william_iii_of_the_netherlands start_date = 1849.3.17 end_date = 1890.11.23 regnal_number = 3 }
+            ruler_term = { character = ned_wilhelmina_of_the_netherlands start_date = 1890.11.23 end_date = 1948.9.4 }
+            ruler_term = { character = ned_juliana_of_the_netherlands start_date = 1948.9.4 end_date = 1980.4.30 }
+            ruler_term = { character = ned_beatrix_of_the_netherlands start_date = 1980.4.30 }
+        
+            type = monarchy
+         }
          country_rank = rank_kingdom
          starting_technology_level = 3
 
@@ -5054,12 +5070,6 @@ countries = {
          }
 
          include = "expl_mdm_whole_world"
-
-         government = {
-            type = republic
-            ruler = random
-
-          }
       }
 
 
