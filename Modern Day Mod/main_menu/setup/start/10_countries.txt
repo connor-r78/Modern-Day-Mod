@@ -18,8 +18,7 @@ countries = {
 
          government = {
             type = republic
-            ruler = random
-
+            ruler = abk_vladislav_ardzinba
          }
       }
 
@@ -2424,7 +2423,24 @@ countries = {
       ENG = {
          country_rank = rank_kingdom
 
-       }
+         government = {
+            ruler_term = { character = eng_henry_vii start_date = 1485.8.22 end_date = 1509.4.21 regnal_number = 7 }
+            ruler_term = { character = eng_henry_viii start_date = 1509.4.22 end_date = 1547.1.28 regnal_number = 8 }
+            ruler_term = { character = eng_edward_vi start_date = 1537.10.12 end_date = 1553.7.6 regnal_number = 6 }
+            ruler_term = { character = eng_lady_jane_grey start_date = 1553.7.10 end_date = 1553.7.19 }
+            ruler_term = { character = eng_mary_i start_date = 1553.7.19 end_date = 1558.11.17 regnal_number = 1 }
+            ruler_term = { character = eng_elizabeth_i start_date = 1558.11.17 end_date = 1603.3.24 regnal_number = 1 }
+            ruler_term = { character = eng_james_vi_and_i start_date = 1603.3.24 end_date = 1625.3.27 regnal_number = 1 } 
+            ruler_term = { character = eng_charles_i_of_england start_date = 1625.3.27 end_date = 1649.1.30 regnal_number = 1 } 
+            ruler_term = { character = eng_oliver_cromwell start_date = 1653.12.16 end_date = 1658.9.3 } 
+            ruler_term = { character = eng_richard_cromwell start_date = 1658.9.3 end_date = 1659.5.25 } 
+            ruler_term = { character = eng_charles_ii_of_england start_date = 1660.5.29 end_date = 1685.2.6 regnal_number = 2 } 
+            ruler_term = { character = eng_james_ii_of_england start_date = 1685.2.6 end_date = 1688.12.23 regnal_number = 2 } 
+            ruler_term = { character = eng_mary_ii start_date = 1689.2.13 end_date = 1702.3.8 regnal_number = 2 }         
+            ruler_term = { character = eng_william_iii_of_england start_date = 1689.2.13 end_date = 1702.3.8 regnal_number = 3 }
+            ruler_term = { character = gbr_anne_queen_of_great_britain start_date = 1702.3.8 end_date = 1707.5.1 }
+         }
+      }
 
 
       EQGU = {
@@ -2788,6 +2804,8 @@ countries = {
             consort = gbr_prince_philip_duke_of_edinburgh
 
             heir_selection = cognatic_primogeniture
+
+            inherit_ruler_terms = ENG
 
             ruler_term = { character = gbr_anne_queen_of_great_britain start_date = 1707.5.1 end_date = 1714.8.1 }
             ruler_term = { character = gbr_george_i start_date = 1714.8.1 end_date = 1727.6.22 regnal_number = 1 }

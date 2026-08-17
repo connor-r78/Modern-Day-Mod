@@ -10,14 +10,39 @@ dynasty_manager = {
       home = dublin
    }
 
+   normandy_dynasty = {
+      name = { name = normandy_dynasty }
+      home = rouen
+   }
+
+   plantagenet_dynasty = {
+      name = { name = plantagenet_dynasty }
+      home = anjou
+   }
+
+   poitiers_dynasty = {
+      name = { name = poitiers }
+      home = poitiers
+   }
+
    spencer_dynasty = {
       name = { name = spencer_dynasty }
       home = oxford
    }
 
+   tudor_dynasty = {
+      name = { name = tudor_dynasty }
+      home = anglesey
+   }
+
    windsor_dynasty = {
       name = { name = windsor }
       home = windsor
+   }
+
+   york_dynasty = {
+      name = { name = york }
+      home = york
    }
 
    default_dynasty = {

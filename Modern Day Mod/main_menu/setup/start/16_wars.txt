@@ -1,18 +1,12 @@
 war_manager = {
-#	civil_war = {
-#		
-#	}
-#
-#	war = {
-#		
-#	}
-#
-#	truce = { 
-#	
-#	}
-#
-#	truce = {
-#	
-#	}
-#	
+    war = {
+        start_date = 1998.5.6
+
+        attacker = {
+            country = ETH
+        }
+        defender = {
+            country = ERIT
+        }
+    }
 }

@@ -1,4 +1,42 @@
 character_db = {
+    abk_vladislav_ardzinba = {
+        first_name = { name = name_vladislav }
+        last_name = { name = name_ardzinba }
+        culture = abkhazian_culture
+        religion = sunni
+        birth_date = 1945.5.14
+        birth = sukhumi
+        
+        tag = ABK
+        estate = crown_estate
+    }
+
+    eng_oliver_cromwell = {
+        first_name = { name = name_oliver }
+        culture = english
+        religion = anglican
+        birth_date = 1599.4.25
+        birth = huntingdon
+        death_date = 1658.9.3
+
+        tag = ENG
+        estate = crown_estate
+    }
+   
+    eng_richard_cromwell = {
+        first_name = { name = name_richard }
+        culture = english
+        religion = anglican
+        birth_date = 1626.10.4
+        birth = huntingdon
+        death_date = 1712.7.12
+
+        tag = ENG
+        estate = nobles_estate
+
+        father = eng_oliver_cromwell
+    }
+
     ire_mary_mcaleese = {
         first_name = { name = name_mary }
         last_name = { name = name_leneghan }
@@ -95,6 +133,449 @@ character_db = {
         spouse = gbr_cherie_blair
     }
 
+    eng_eleanor_of_aquitaine = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = catholic
+        birth_date = 1124.1.1
+        birth = bordeaux
+        female = yes
+        death_date = 1204.4.1
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = poiters_dynasty
+    }
+
+    eng_william_the_conqueror = {
+        first_name = { name = name_william }
+        nickname = { name = nick_the_conquerer }
+        culture = english
+        religion = catholic
+        birth_date = 1028.1.1
+        birth = falaise
+        death_date = 1087.9.9
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = normandy_dynasty
+    }
+
+    eng_william_ii_of_england = {
+        first_name = { name = name_william }
+        nickname = { name = nick_rufus }
+        culture = english
+        religion = catholic
+        birth_date = 1057.1.1
+        birth = rouen
+        death_date = 1100.8.2
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = normandy_dynasty
+    }
+
+    eng_henry_i_of_england = {
+        first_name = { name = name_henry }
+        nickname = { name = nick_beauclerc }
+        culture = english
+        religion = catholic
+        birth_date = 1068.1.1
+        birth = selby
+        death_date = 1135.12.1
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = normandy_dynasty
+
+        father = eng_william_the_conqueror
+    }
+
+    eng_empress_matilda = {
+        first_name = { name = name_matilda }
+        culture = english
+        religion = catholic
+        birth_date = 1102.2.7
+        birth = winchester
+        death_date = 1167.9.10
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = normandy_dynasty
+
+        father = eng_henry_i_of_england
+    }
+
+    eng_henry_ii_of_england = {
+        first_name = { name = name_henry }
+        nickname = { name = nick_curtmantle }
+        culture = english
+        religion = catholic
+        birth_date = 1133.3.5
+        birth = le_mans
+        death_date = 1189.7.6
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        mother = eng_empress_matilda
+        spouse = eng_eleanor_of_aquitaine
+    }
+
+    eng_henry_the_young_king = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = catholic
+        birth_date = 1155.2.28
+        birth = london
+        death_date = 1183.6.11
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_henry_ii_of_england
+        mother = eng_eleanor_of_aquitaine
+    }
+
+    eng_richard_i_of_england = {
+        first_name = { name = name_richard }
+        culture = english
+        religion = catholic
+        birth_date = 1157.9.8
+        birth = london
+        death_date = 1199.4.6
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_henry_ii_of_england
+        mother = eng_eleanor_of_aquitaine
+    }
+
+    eng_john_king_of_england = {
+        first_name = { name = name_john }
+        culture = english
+        religion = catholic
+        birth_date = 1166.12.25
+        birth = london
+        death_date = 1216.10.19
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_henry_ii_of_england
+        mother = eng_eleanor_of_aquitaine
+    }
+
+    eng_john_king_of_england = {
+        first_name = { name = name_john }
+        culture = english
+        religion = catholic
+        birth_date = 1166.12.25
+        birth = london
+        death_date = 1216.10.19
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_henry_ii_of_england
+        mother = eng_eleanor_of_aquitaine
+    }
+
+    eng_henry_iii = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = catholic
+        birth_date = 1207.10.1
+        birth = london
+        death_date = 1272.11.16
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_john_king_of_england
+    }
+
+    eng_edward_i = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = catholic
+        birth_date = 1239.6.18
+        birth = london
+        death_date = 1307.7.7
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_henry_iii
+    }
+
+    eng_edward_ii = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = catholic
+        birth_date = 1284.4.25
+        birth = carnarvon
+        death_date = 1327.9.21
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_edward_i
+    }
+
+    eng_edward_iii = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = catholic
+        birth_date = 1312.11.13
+        birth = windsor
+        death_date = 1377.6.21
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_edward_ii
+    }
+
+    eng_edward_the_black_prince = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = catholic
+        birth_date = 1330.6.15
+        birth = oxford
+        death_date = 1376.6.8
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_edward_iii
+    }
+
+    eng_richard_ii = {
+        first_name = { name = name_richard }
+        culture = english
+        religion = catholic
+        birth_date = 1367.1.6
+        birth = oxford
+        death_date = 1400.2.14
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_edward_the_black_prince
+    }
+
+    eng_john_of_gaunt = {
+        first_name = { name = name_john }
+        culture = english
+        religion = catholic
+        birth_date = 1340.3.6
+        birth = ghent
+        death_date = 1399.2.3
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_edward_iii
+    }
+
+    eng_henry_iv = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = catholic
+        birth_date = 1367.4.1
+        birth = lincoln
+        death_date = 1413.3.20
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_john_of_gaunt
+    }
+
+    eng_henry_v = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = catholic
+        birth_date = 1386.9.16
+        birth = monmouth
+        death_date = 1422.8.31
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_henry_iv
+    }
+
+    eng_henry_vi = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = catholic
+        birth_date = 1421.12.6
+        birth = windsor
+        death_date = 1471.5.21
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = plantagenet_dynasty
+
+        father = eng_henry_v
+    }
+
+    eng_edmund_of_langley_first_duke_of_york = {
+        first_name = { name = name_edmond }
+        culture = english
+        religion = catholic
+        birth_date = 1341.6.5
+        birth = hertford
+        death_date = 1402.8.1
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = york_dynasty
+
+        father = eng_edward_iii
+    }
+
+    eng_richard_of_conisburgh_third_earl_of_cambridge = {
+        first_name = { name = name_richard }
+        culture = english
+        religion = catholic
+        birth_date = 1385.7.20
+        birth = doncaster
+        death_date = 1415.8.5
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = york_dynasty
+
+        father = eng_edmund_of_langley_first_duke_of_york
+    }
+
+    eng_richard_of_york_third_duke_of_york = {
+        first_name = { name = name_richard }
+        culture = english
+        religion = catholic
+        birth_date = 1411.9.21
+        birth = doncaster
+        death_date = 1460.12.30
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = york_dynasty
+
+        father = eng_richard_of_conisburgh_third_earl_of_cambridge
+    }
+
+    eng_edward_iv = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = catholic
+        birth_date = 1442.4.28
+        birth = rouen
+        death_date = 1483.4.9
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = york_dynasty
+
+        father = eng_richard_of_york_third_duke_of_york
+    }
+
+    eng_elizabeth_of_york = {
+        first_name = { name = name_elizabeth }
+        culture = english
+        religion = catholic
+        birth_date = 1466.2.11
+        birth = london
+        female = yes
+        death_date = 1503.2.11
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = york_dynasty
+
+        father = eng_edward_iv
+    }
+
+    eng_henry_vii = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = catholic
+        birth_date = 1457.1.28
+        birth = pembroke
+        death_date = 1509.4.21
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = tudor_dynasty
+
+        spouse = eng_elizabeth_of_york
+    }
+
+    sco_margaret_tudor = {
+        first_name = { name = name_margaret }
+        culture = english
+        religion = catholic
+        birth_date = 1489.11.29
+        birth = london
+        female = yes
+        death_date = 1541.10.18
+
+        tag = SCO
+        estate = crown_estate
+        dynasty = tudor_dynasty
+
+        father = eng_henry_vii
+        mother = eng_elizabeth_of_york
+    }
+
+    sco_james_v = {
+        first_name = { name = name_james }
+        culture = scottish
+        religion = catholic
+        birth_date = 1512.4.20
+        birth = linlithgow
+        death_date = 1542.12.14
+
+        tag = SCO
+        estate = crown_estate
+        dynasty = stuart_dynasty
+
+        mother = sco_margaret_tudor
+    }
+
+    sco_mary_queen_of_scots = {
+        first_name = { name = name_mary }
+        culture = scottish
+        religion = catholic
+        birth_date = 1542.12.8
+        birth = linlithgow
+        female = yes
+        death_date = 1587.2.8
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = stuart_dynasty
+
+        father = sco_james_v
+    }
+
     eng_james_vi_and_i = {
         first_name = { name = name_james }
         culture = scottish
@@ -106,6 +587,8 @@ character_db = {
         tag = ENG
         estate = crown_estate
         dynasty = stuart_dynasty
+
+        mother = sco_mary_queen_of_scots
     }
 
     eng_charles_i_of_england = {
@@ -163,9 +646,9 @@ character_db = {
 
         tag = ENG
         estate = crown_estate
-        dynasty = orange_nassai_dynasty
+        dynasty = orange_nassau_dynasty
 
-        father = eng_charles_i_of_england
+        mother = eng_mary_princess_royal_and_princess_of_orange
     }
 
     eng_james_ii_of_england = {
@@ -197,6 +680,7 @@ character_db = {
         dynasty = stuart_dynasty
 
         father = eng_james_ii_of_england
+        spouse = eng_william_iii_of_england
     }
 
     gbr_anne_queen_of_great_britain = {
@@ -1282,6 +1766,117 @@ character_db = {
 
         mother = ned_beatrix_of_the_netherlands
         father = ned_prince_claus_of_the_netherlands
+    }
+
+    eng_henry_viii = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = anglican
+        birth_date = 1491.6.28
+        birth = london
+        death_date = 1547.1.28
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = tudor_dynasty
+
+        father = eng_henry_vii
+        mother = eng_elizabeth_of_york
+    }
+
+    eng_mary_i = {
+        first_name = { name = name_mary }
+        culture = english
+        religion = catholic
+        birth_date = 1516.2.18
+        birth = london
+        female = yes
+        death_date = 1558.11.17
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = tudor_dynasty
+
+        father = eng_henry_viii
+    }
+
+    eng_elizabeth_i = {
+        first_name = { name = name_mary }
+        culture = english
+        religion = anglican
+        birth_date = 1533.9.7
+        birth = london
+        female = yes
+        death_date = 1603.3.24
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = tudor_dynasty
+
+        father = eng_henry_viii
+    }
+
+    eng_edward_vi = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = anglican
+        birth_date = 1537.10.12
+        birth = london
+        death_date = 1553.7.6
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = tudor_dynasty
+
+        father = eng_henry_viii
+    }
+
+    eng_mary_tudor_queen_of_france = {
+        first_name = { name = name_mary }
+        culture = english
+        religion = catholic
+        birth_date = 1496.3.18
+        birth = london
+        female = yes
+        death_date = 1533.6.25
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = tudor_dynasty
+
+        father = eng_henry_vii
+        mother = eng_elizabeth_of_york
+    }
+
+    eng_frances_grey_duchess_of_suffolk = {
+        first_name = { name = name_frances }
+        culture = english
+        religion = anglican
+        birth_date = 1517.7.16
+        birth = london
+        female = yes
+        death_date = 1559.11.20
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = brandon_dynasty
+
+        mother = eng_mary_tudor_queen_of_france
+    }
+
+    eng_edward_v = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = anglican
+        birth_date = 1470.11.2
+        birth = london
+        death_date = 1483.7.1 # disputed, exact date unknown
+
+        tag = ENG
+        estate = crown_estate
+        dynasty = york_dynasty
+
+        mother = eng_edward_iv
     }
 
     usa_dorothy_howell_rodham = {

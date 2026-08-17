@@ -1818,6 +1818,34 @@ heir_religion_law = {
 		}
 		years = 2
 	}
+	heir_not_catholic = {
+		potential = {
+			succession_law = {
+				NOT = { has_tag = empty_heir_religion_law }
+			}
+			or = {
+				not = { country_exists = this } #if the country doesn't exist they can do what they like
+				not = { exists = ruler_or_heir_if_regent }
+				ruler_or_heir_if_regent = {
+					religion.group = root.religion.group
+				}
+			}
+			or = {
+				tag = GBR
+				tag = ENG
+			}
+		}
+		country_modifier = {
+			heir_of_same_religion_group = yes
+			tolerance_heretic = 0.25
+			clergy_estate_satisfaction_recovery = 0.001
+		}
+		estate_preferences = {
+			nobles_estate
+			clergy_estate
+		}
+		years = 2
+	}
 	heir_any_religion = {
 		potential = {
 			succession_law = {
